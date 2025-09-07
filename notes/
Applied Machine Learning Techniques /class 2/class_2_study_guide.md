@@ -1,5 +1,5 @@
 
-# 📘 Machine Learning Study Guide (Theory-Only)
+## 📘 Machine Learning Study Guide (Theory-Only)
 
 ## 1. Outlier Detection
 **Concepts & Explanations**
