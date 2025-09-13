@@ -1,0 +1,59 @@
+CustomerID,Tenure,MonthlyCharges,TotalCharges,ContractType,TechSupport,Complaints,Churn
+1,39,74.42,4265.19,One Year,Yes,No,No
+2,52,56.04,2302.31,Monthly,No,No,Yes
+3,29,21.06,567.51,Monthly,Yes,Yes,No
+4,15,95.38,1917.01,Two Year,No,Yes,No
+5,43,65.06,3377.32,One Year,No,No,No
+6,8,50.83,3363.02,Two Year,Yes,Yes,No
+7,21,21.28,2997.36,Two Year,Yes,Yes,No
+8,39,38.47,1446.14,One Year,No,Yes,No
+9,58,39.28,2850.09,Monthly,No,Yes,No
+10,19,74.66,1976.34,Monthly,Yes,Yes,Yes
+11,23,68.8,4861.39,One Year,No,Yes,No
+12,11,86.66,4259.68,Monthly,Yes,No,No
+13,11,33.87,3636.47,One Year,No,No,No
+14,24,51.28,1256.33,One Year,Yes,Yes,No
+15,53,34.58,1354.73,Two Year,Yes,No,No
+16,36,80.43,298.12,One Year,Yes,No,No
+17,40,54.01,3582.25,Two Year,No,No,No
+18,24,36.64,643.37,Monthly,No,No,No
+19,3,65.42,2252.75,Monthly,Yes,Yes,No
+20,22,22.51,1088.42,Monthly,No,No,Yes
+21,53,87.38,4489.24,Monthly,Yes,No,No
+22,2,55.98,2429.31,Two Year,Yes,Yes,No
+23,24,51.61,2860.05,Monthly,No,Yes,No
+24,44,94.13,3508.03,One Year,No,No,Yes
+25,30,78.18,782.72,One Year,Yes,No,No
+26,38,46.12,3061.65,One Year,No,No,No
+27,2,65.64,2745.22,Two Year,No,No,Yes
+28,21,61.67,1095,Monthly,Yes,No,No
+29,33,96.89,4719.98,Monthly,Yes,No,No
+30,12,87.56,3034.44,Monthly,No,Yes,No
+31,58,79.79,3504.45,Two Year,Yes,No,No
+32,22,63.18,4414.29,One Year,Yes,No,No
+33,44,66.94,3159.33,One Year,No,Yes,No
+34,25,97.22,1548.61,Monthly,Yes,Yes,No
+35,49,68.56,616.92,One Year,Yes,Yes,Yes
+36,27,42.08,2337.02,One Year,No,Yes,No
+37,59,43.7,1170.36,Two Year,No,No,Yes
+38,42,33.22,2140.9,Two Year,Yes,No,Yes
+39,28,21.25,4428.07,Two Year,Yes,No,No
+40,16,53.87,1689.29,Two Year,No,No,No
+41,15,51.59,698.23,Monthly,No,No,No
+42,47,43.48,1845.86,Two Year,No,No,No
+43,51,21.13,4543.46,One Year,No,Yes,No
+44,44,35.91,1433.45,Monthly,Yes,No,Yes
+45,55,76.91,3273.68,One Year,No,Yes,Yes
+46,52,83.21,102.55,One Year,No,Yes,No
+47,57,68.48,1827.59,One Year,Yes,No,No
+48,3,94.1,1593.43,Two Year,No,Yes,Yes
+49,37,72.09,906.81,Two Year,Yes,No,Yes
+50,51,93.2,2717.04,Monthly,No,Yes,No
+37,59,43.7,1170.36,Two Year,No,No,Yes
+24,44,94.13,3508.03,One Year,No,No,Yes
+48,3,94.1,1593.43,Two Year,No,Yes,Yes
+38,42,33.22,2140.9,Two Year,Yes,No,Yes
+27,2,65.64,2745.22,Two Year,No,No,Yes
+37,59,43.7,1170.36,Two Year,No,No,Yes
+45,55,76.91,3273.68,One Year,No,Yes,Yes
+20,22,22.51,1088.42,Monthly,No,No,Yes
