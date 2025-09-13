@@ -34,7 +34,7 @@
 
 **Supplemental Resources**
 - Book: Hands-On Machine Learning – Aurélien Géron.
-- YouTube: Krish Naik – Feature Scaling in Machine Learning
+- YouTube: https://www.youtube.com/watch?v=Q-45O3b1pO8&t=50s
 - Article: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/
 - Website: https://scikit-learn.org/stable/modules/preprocessing.html
 
