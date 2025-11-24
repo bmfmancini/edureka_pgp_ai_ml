@@ -14,6 +14,7 @@ It shows:
 References: Applied_ML_Class4_CatchupGuide_Comprehensive.md (Section 5, timestamps 01:25-01:40)
 """
 
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -24,6 +25,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import warnings
 warnings.filterwarnings('ignore')
+
+# Optional import for VIF calculation
+try:
+    from statsmodels.stats.outliers_influence import variance_inflation_factor
+    HAS_STATSMODELS = True
+except ImportError:
+    HAS_STATSMODELS = False
 
 
 def generate_data_with_multicollinearity(n_samples=200, n_features=10, noise=10, random_state=42):
@@ -79,7 +87,8 @@ def calculate_vif(X):
     vif_data : DataFrame
         VIF values for each feature
     """
-    from statsmodels.stats.outliers_influence import variance_inflation_factor
+    if not HAS_STATSMODELS:
+        raise ImportError("statsmodels is required for VIF calculation")
     
     vif_data = pd.DataFrame()
     vif_data["Feature"] = [f"X{i}" for i in range(X.shape[1])]
@@ -176,7 +185,6 @@ def find_best_alpha_cv(X_train, y_train, alphas=None, cv=5):
     ridge_cv.fit(X_train, y_train)
     
     # Manually compute CV scores for visualization
-    from sklearn.model_selection import cross_val_score
     cv_scores_list = []
     for alpha in alphas:
         ridge_temp = Ridge(alpha=alpha)
@@ -301,8 +309,11 @@ def plot_results(results, cv_results=None, figsize=(15, 10)):
     ax6.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('/home/runner/work/edureka_pgp_ai_ml/edureka_pgp_ai_ml/notes/Applied_Machine_Learning_Techniques/examples/ridge_regression_results.png', 
-                dpi=300, bbox_inches='tight')
+    
+    # Save in the same directory as the script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(script_dir, 'ridge_regression_results.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.show()
     
     print("Visualization saved as 'ridge_regression_results.png'")
@@ -425,7 +436,7 @@ def main():
     try:
         vif_data = calculate_vif(X_train_scaled)
         print("   VIF calculated (see summary below)")
-    except:
+    except ImportError:
         print("   ⚠️  VIF calculation requires statsmodels (optional)")
         vif_data = None
     
