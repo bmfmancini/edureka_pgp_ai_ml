@@ -1,0 +1,37 @@
+id,user_query,intent,entities,response_template
+10,Do I have any pending travel approvals?,CheckTravelApprovals,{},Checking your travel approval status...
+3,Show me my hotel bookings,ViewHotelBookings,{},Here are your current hotel bookings: [dummy_booking_data].
+5,"Yes, book the return ticket too",BookReturnFlight,{},Your return flight has also been booked.
+7,Remind me to apply for a visa next Monday,SetReminder,"{'task': 'apply for a visa', 'date': 'next Monday'}",Reminder set to {task} on {date}.
+6,I need a hotel in Tokyo from 20th to 25th August,BookHotel,"{'location': 'Tokyo', 'check_in': '20th August', 'check_out': '25th August'}",A hotel in {location} from {check_in} to {check_out} has been reserved for you.
+7,Remind me to apply for a visa next Monday,SetReminder,"{'task': 'apply for a visa', 'date': 'next Monday'}",Reminder set to {task} on {date}.
+2,Cancel my ticket to Dubai,CancelFlight,{'destination': 'Dubai'},Your ticket to {destination} has been successfully canceled.
+5,"Yes, book the return ticket too",BookReturnFlight,{},Your return flight has also been booked.
+2,Cancel my ticket to Dubai,CancelFlight,{'destination': 'Dubai'},Your ticket to {destination} has been successfully canceled.
+7,Remind me to apply for a visa next Monday,SetReminder,"{'task': 'apply for a visa', 'date': 'next Monday'}",Reminder set to {task} on {date}.
+3,Show me my hotel bookings,ViewHotelBookings,{},Here are your current hotel bookings: [dummy_booking_data].
+10,Do I have any pending travel approvals?,CheckTravelApprovals,{},Checking your travel approval status...
+1,Book a flight from New York to Paris next Friday,BookFlight,"{'origin': 'New York', 'destination': 'Paris', 'date': 'next Friday'}",Your flight from {origin} to {destination} has been booked for {date}.
+4,What’s the weather in Rome on July 15?,WeatherQuery,"{'location': 'Rome', 'date': 'July 15'}",The weather in {location} on {date} is expected to be sunny with a high of 30°C.
+8,Where can I find cheap flights to Bali?,SearchFlights,{'destination': 'Bali'},Searching for cheap flights to {destination}...
+1,Book a flight from New York to Paris next Friday,BookFlight,"{'origin': 'New York', 'destination': 'Paris', 'date': 'next Friday'}",Your flight from {origin} to {destination} has been booked for {date}.
+1,Book a flight from New York to Paris next Friday,BookFlight,"{'origin': 'New York', 'destination': 'Paris', 'date': 'next Friday'}",Your flight from {origin} to {destination} has been booked for {date}.
+5,"Yes, book the return ticket too",BookReturnFlight,{},Your return flight has also been booked.
+10,Do I have any pending travel approvals?,CheckTravelApprovals,{},Checking your travel approval status...
+2,Cancel my ticket to Dubai,CancelFlight,{'destination': 'Dubai'},Your ticket to {destination} has been successfully canceled.
+6,I need a hotel in Tokyo from 20th to 25th August,BookHotel,"{'location': 'Tokyo', 'check_in': '20th August', 'check_out': '25th August'}",A hotel in {location} from {check_in} to {check_out} has been reserved for you.
+9,Is there any rain expected in London tomorrow?,WeatherQuery,"{'location': 'London', 'date': 'tomorrow'}",Checking weather forecast for {location} on {date}...
+3,Show me my hotel bookings,ViewHotelBookings,{},Here are your current hotel bookings: [dummy_booking_data].
+6,I need a hotel in Tokyo from 20th to 25th August,BookHotel,"{'location': 'Tokyo', 'check_in': '20th August', 'check_out': '25th August'}",A hotel in {location} from {check_in} to {check_out} has been reserved for you.
+3,Show me my hotel bookings,ViewHotelBookings,{},Here are your current hotel bookings: [dummy_booking_data].
+4,What’s the weather in Rome on July 15?,WeatherQuery,"{'location': 'Rome', 'date': 'July 15'}",The weather in {location} on {date} is expected to be sunny with a high of 30°C.
+5,"Yes, book the return ticket too",BookReturnFlight,{},Your return flight has also been booked.
+10,Do I have any pending travel approvals?,CheckTravelApprovals,{},Checking your travel approval status...
+9,Is there any rain expected in London tomorrow?,WeatherQuery,"{'location': 'London', 'date': 'tomorrow'}",Checking weather forecast for {location} on {date}...
+1,Book a flight from New York to Paris next Friday,BookFlight,"{'origin': 'New York', 'destination': 'Paris', 'date': 'next Friday'}",Your flight from {origin} to {destination} has been booked for {date}.
+6,I need a hotel in Tokyo from 20th to 25th August,BookHotel,"{'location': 'Tokyo', 'check_in': '20th August', 'check_out': '25th August'}",A hotel in {location} from {check_in} to {check_out} has been reserved for you.
+8,Where can I find cheap flights to Bali?,SearchFlights,{'destination': 'Bali'},Searching for cheap flights to {destination}...
+2,Cancel my ticket to Dubai,CancelFlight,{'destination': 'Dubai'},Your ticket to {destination} has been successfully canceled.
+7,Remind me to apply for a visa next Monday,SetReminder,"{'task': 'apply for a visa', 'date': 'next Monday'}",Reminder set to {task} on {date}.
+8,Where can I find cheap flights to Bali?,SearchFlights,{'destination': 'Bali'},Searching for cheap flights to {destination}...
+8,Where can I find cheap flights to Bali?,SearchFlights,{'destination': 'Bali'},Searching for cheap flights to {destination}...
