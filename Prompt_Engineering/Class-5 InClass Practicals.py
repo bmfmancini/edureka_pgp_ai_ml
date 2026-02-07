@@ -6,7 +6,7 @@ import requests
 from typing import Dict, Any
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-DEFAULT_MODEL = "llama3.2:3b"
+DEFAULT_MODEL = "qwen:0.5b"
 
 
 def ollama_generate(prompt: str, model: str = DEFAULT_MODEL, stream: bool = True, options: Dict[str, Any] = None) -> str:

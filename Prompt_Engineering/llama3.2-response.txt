@@ -1,0 +1,107 @@
+ean@0x0-desktop:~/Downloads$ python3 'Class-5 InClass Practicals.py'
+**Title:** AI-Powered Recommendation Engine for Enhanced E-commerce Experience
+
+**Problem:**
+The e-commerce landscape is increasingly saturated with competing products and services. Consumers expect personalized recommendations to enhance their shopping experience, leading to increased engagement and conversion rates.
+
+**Solution Overview:**
+Our proposal outlines the development of an AI-powered recommendation engine that leverages machine learning algorithms to provide users with relevant product suggestions based on their browsing history, purchase behavior, and search queries.
+
+**Technology Stack:**
+
+• Frontend: React.js for user interface, utilizing HTML5 and CSS3 for a seamless web experience
+• Backend: Node.js with Express.js framework, utilizing MongoDB for data storage and PostgreSQL for database management
+• Machine Learning (ML): TensorFlow.js for building and training the recommendation model, utilizing Python for data preprocessing and feature engineering
+• Data: Utilizing Apache Cassandra for NoSQL data storage, leveraging Spark SQL for data processing and analytics
+• Deployment: Docker containerization with Kubernetes orchestration for efficient scaling and deployment
+
+**Market Opportunity:**
+
+• Growing demand for personalized e-commerce experiences, expected to reach $15.8 billion by 2025 (Source: MarketsandMarkets)
+• Increasing competition in the e-commerce space, driving the need for innovative solutions like AI-powered recommendation engines
+• Expanding customer base across various demographics and geographic regions
+
+**Expected Outcomes:**
+
+• Increased conversion rates by 25% through targeted product recommendations
+• Enhanced user engagement by 30%, measured through increased session duration and reduced bounce rates
+• Revenue growth of 15% within the first year, attributed to improved sales funnel efficiency
+• Customer retention rate increase by 20%, driven by personalized experiences and loyalty programs
+
+By implementing our AI-powered recommendation engine, e-commerce platforms can differentiate themselves from competitors, drive business growth, and enhance customer satisfaction.
+Category: 3) Praise / Positive Feedback
+Reason: The text expresses admiration for the new software update, highlighting its positive effects on user experience and performance.
+==== STEP 0 (VAGUE) ====
+**Classification:** The incident report is related to IT/Software Development, specifically a critical failure in a CI/CD pipeline that affected production environment.
+
+**Extracted Information:**
+
+* Date of incident: June 25, 2025
+* Affected system: Production environment
+* Cause of failure:
+	+ Misconfigured YAML file
+	+ Skipped integration tests
+	+ Undetected bugs pushed live
+* Impact:
+	+ User authentication service returned 503 errors for approximately 45 minutes
+	+ Around 30% of active sessions were affected
+* Resolution:
+	+ Identified by SRE team
+	+ Rolled back and patch applied
+
+**Summary:** A critical failure occurred in the CI/CD pipeline on June 25, 2025, due to a misconfigured YAML file. This led to skipped integration tests, undetected bugs being pushed live, and a significant impact on user authentication service. The issue was quickly identified and resolved by rolling back and applying a patch.
+
+**Translation:**
+
+Original text in English:
+
+"During a routine deployment on June 25, 2025, the DevOps team encountered a critical failure in the CI/CD pipeline affecting the production environment.
+A misconfigured YAML file led to skipped integration tests, which caused undetected bugs to be pushed live.
+As a result, the user authentication service returned 503 errors for approximately 45 minutes, impacting around 30% of active sessions.
+The issue was identified by the SRE team, rolled back, and a patch was applied.
+A post-mortem report was initiated to outline the root cause and preventive measures."
+
+Translated text in Spanish:
+
+"Durante una implementación rutinaria el 25 de junio de 2025, la equipe de DevOps se enfrentó a un fallo crítico en el flujo CI/CD que afectaba al entorno de producción.
+Un archivo YAML mal configurado llevó a los pruebas de integración saltadas, lo que causó que las bugs no detectados fueran empujados en línea.
+Como resultado, el servicio de autenticación de usuarios devolvió errores 503 durante aproximadamente 45 minutos, afectando alrededor del 30% de las sesiones activas.
+El problema fue identificado por la equipe SRE, se reemplazó y se aplicó una parche.
+Se inició un informe póstumo para destacar la causa raíz y medidas preventivas."
+
+Note: The translation is provided in Spanish, but it can be translated to other languages as needed.
+
+==== STEP 1 (CLASSIFICATION ONLY) ====
+Here is the classification of each sentence:
+
+1) "During a routine deployment on June 25, 2025, the DevOps team encountered a critical failure in the CI/CD pipeline affecting the production environment." -> deployment
+2) "A misconfigured YAML file led to skipped integration tests, which caused undetected bugs to be pushed live." -> error handling
+3) "As a result, the user authentication service returned 503 errors for approximately 45 minutes, impacting around 30% of active sessions." -> impact
+4) "The issue was identified by the SRE team, rolled back, and a patch was applied." -> resolution
+5) "A post-mortem report was initiated to outline the root cause and preventive measures." -> preventive action
+
+==== STEP 4 (FULL) ====
+A) Sentence Classification:
+
+1. deployment: During a routine deployment on June 25, 2025,
+2. error handling: A misconfigured YAML file led to skipped integration tests, which caused undetected bugs to be pushed live.
+3. impact: The user authentication service returned 503 errors for approximately 45 minutes, impacting around 30% of active sessions.
+4. resolution: The issue was identified by the SRE team, rolled back, and a patch was applied.
+5. preventive action: A post-mortem report was initiated to outline the root cause and preventive measures.
+
+B) Extracted Fields JSON:
+
+{
+    "affected_service": "user authentication service",
+    "error_code": 503,
+    "duration": "45 minutes",
+    "team_responsible_for_resolution": "SRE team"
+}
+
+C) Slack Summary: 
+"A critical failure in the CI/CD pipeline caused a 45-minute outage of the user authentication service."
+
+D) Spanish Translation:
+"Se aplicó un parche"
+
+Note: The translation is word-for-word, as per your request. If you'd like a more idiomatic translation, please let me know!
